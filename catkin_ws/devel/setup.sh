@@ -1,1 +1,1 @@
-/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/catkin_tools_prebuild/setup.sh
+/home/yinan/ballbotRepo/catkin_ws/devel/.private/catkin_tools_prebuild/setup.sh

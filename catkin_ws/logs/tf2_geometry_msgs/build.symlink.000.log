@@ -1,0 +1,4 @@
+Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake
+Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake
+Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/lib/python2.7/dist-packages/tf2_geometry_msgs/__init__.py
+Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_geometry_msgs.pc
