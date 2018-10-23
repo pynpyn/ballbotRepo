@@ -1,3 +1,21 @@
 [submodule "catkin_ws/src/brics_actuator"]
 	path = catkin_ws/src/brics_actuator
 	url = git://github.com/wnowak/brics_actuator.git
+[submodule "catkin_ws/src/geometry2"]
+	path = catkin_ws/src/geometry2
+	url = https://github.com/ros/geometry2.git
+[submodule "catkin_ws/src/ros_bubble_rob2"]
+	path = catkin_ws/src/ros_bubble_rob2
+	url = https://github.com/CoppeliaRobotics/ros_bubble_rob2.git
+[submodule "catkin_ws/src/v_repExtRosInterface"]
+	path = catkin_ws/src/v_repExtRosInterface
+	url = https://github.com/CoppeliaRobotics/v_repExtRosInterface.git
+[submodule "catkin_ws/src/vrep_plugin_skeleton"]
+	path = catkin_ws/src/vrep_plugin_skeleton
+	url = https://github.com/CoppeliaRobotics/vrep_plugin_skeleton.git
+[submodule "catkin_ws/src/vrep_skeleton_msg_and_srv"]
+	path = catkin_ws/src/vrep_skeleton_msg_and_srv
+	url = https://github.com/CoppeliaRobotics/vrep_skeleton_msg_and_srv.git
+[submodule "catkin_ws/src/v_repStubsGen"]
+	path = catkin_ws/src/v_repStubsGen
+	url = https://github.com/CoppeliaRobotics/v_repStubsGen.git
