@@ -1,0 +1,3 @@
+[submodule "catkin_ws/src/brics_actuator"]
+	path = catkin_ws/src/brics_actuator
+	url = git://github.com/wnowak/brics_actuator.git
