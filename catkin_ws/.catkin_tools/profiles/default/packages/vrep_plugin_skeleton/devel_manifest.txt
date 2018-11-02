@@ -1,5 +1,0 @@
-vrep_plugin_skeleton
-/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/share/vrep_plugin_skeleton/cmake/vrep_plugin_skeletonConfig.cmake /home/yinan/ballbotRepo/catkin_ws/devel/share/vrep_plugin_skeleton/cmake/vrep_plugin_skeletonConfig.cmake
-/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/share/vrep_plugin_skeleton/cmake/vrep_plugin_skeletonConfig-version.cmake /home/yinan/ballbotRepo/catkin_ws/devel/share/vrep_plugin_skeleton/cmake/vrep_plugin_skeletonConfig-version.cmake
-/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/lib/libv_repExtRosSkeleton.so /home/yinan/ballbotRepo/catkin_ws/devel/lib/libv_repExtRosSkeleton.so
-/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/lib/pkgconfig/vrep_plugin_skeleton.pc /home/yinan/ballbotRepo/catkin_ws/devel/lib/pkgconfig/vrep_plugin_skeleton.pc

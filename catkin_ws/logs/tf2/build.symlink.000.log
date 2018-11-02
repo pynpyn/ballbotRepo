@@ -1,4 +1,4 @@
-Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/share/tf2/cmake/tf2Config-version.cmake
-Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/share/tf2/cmake/tf2Config.cmake
-Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/lib/libtf2.so
-Symlinking /home/yinan/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2.pc
+Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/libtf2.so
+Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2.pc
+Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2/cmake/tf2Config.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2/cmake/tf2Config-version.cmake

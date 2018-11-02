@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2/src/rosBubbleRob2.cpp
+/home/hdcl-ros/ballbotRepo/src/ros_bubble_rob2/src/rosBubbleRob2.cpp
 stdio.h
 -
 stdlib.h
@@ -14,9 +14,9 @@ stdlib.h
 ros/ros.h
 -
 std_msgs/Bool.h
-/home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2/src/std_msgs/Bool.h
+/home/hdcl-ros/ballbotRepo/src/ros_bubble_rob2/src/std_msgs/Bool.h
 std_msgs/Float32.h
-/home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2/src/std_msgs/Float32.h
+/home/hdcl-ros/ballbotRepo/src/ros_bubble_rob2/src/std_msgs/Float32.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

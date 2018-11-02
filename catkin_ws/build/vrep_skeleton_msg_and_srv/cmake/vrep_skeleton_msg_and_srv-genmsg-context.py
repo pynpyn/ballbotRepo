@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+services_str = "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
 pkg_name = "vrep_skeleton_msg_and_srv"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

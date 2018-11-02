@@ -1,16 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf2_msgs_generate_messages_eus"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionGoal.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/TFMessage.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionFeedback.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformAction.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformResult.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/TF2Error.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformFeedback.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformGoal.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionResult.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/srv/FrameGraph.l"
-  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/manifest.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionGoal.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformAction.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionFeedback.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformGoal.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/TFMessage.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformFeedback.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformActionResult.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/TF2Error.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/msg/LookupTransformResult.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/srv/FrameGraph.l"
+  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_msgs/share/roseus/ros/tf2_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

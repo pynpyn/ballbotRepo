@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/vrep_plugin_skeleton
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/vrep_plugin_skeleton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/vrep_plugin_skeleton /home/yinan/ballbotRepo/catkin_ws/src/vrep_plugin_skeleton /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/src/vrep_plugin_skeleton /home/hdcl-ros/ballbotRepo/src/vrep_plugin_skeleton /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

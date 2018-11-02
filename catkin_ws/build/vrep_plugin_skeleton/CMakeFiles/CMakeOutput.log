@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-36-generic - x86_64
+The system is: Linux - 4.15.0-38-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,80 +23,80 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8bf1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8bf1.dir/build.make CMakeFiles/cmTC_a8bf1.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a8bf1.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a8bf1.dir/testCCompiler.c.o   -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a8bf1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8bf1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8bf1.dir/testCCompiler.c.o  -o cmTC_a8bf1 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3e702/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e702.dir/build.make CMakeFiles/cmTC_3e702.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e702.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e702.dir/testCCompiler.c.o   -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3e702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e702.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e702.dir/testCCompiler.c.o  -o cmTC_3e702 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cda3b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cda3b.dir/build.make CMakeFiles/cmTC_cda3b.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_cda3b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda3b.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o  -o cmTC_cda3b 
+Run Build Command:"/usr/bin/make" "cmTC_c01ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c01ab.dir/build.make CMakeFiles/cmTC_c01ab.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c01ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c01ab.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o  -o cmTC_c01ab 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-16ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
+gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cda3b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvGm5ip.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cda3b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cda3b' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c01ab' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxp89Ns.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c01ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c01ab' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cda3b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cda3b.dir/build.make CMakeFiles/cmTC_cda3b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_cda3b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda3b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o  -o cmTC_cda3b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c01ab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c01ab.dir/build.make CMakeFiles/cmTC_c01ab.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c01ab]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c01ab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o  -o cmTC_c01ab ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-16ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cda3b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvGm5ip.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cda3b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c01ab' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxp89Ns.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c01ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccvGm5ip.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxp89Ns.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cda3b] ==> ignore
+    arg [cmTC_c01ab] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_cda3b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c01ab.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,17 +158,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_382b1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_382b1.dir/build.make CMakeFiles/cmTC_382b1.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_382b1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_382b1.dir/feature_tests.c.o   -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
-Linking C executable cmTC_382b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382b1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_382b1.dir/feature_tests.c.o  -o cmTC_382b1 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9f3e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f3e9.dir/build.make CMakeFiles/cmTC_9f3e9.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f3e9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9f3e9.dir/feature_tests.c.o   -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9f3e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f3e9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9f3e9.dir/feature_tests.c.o  -o cmTC_9f3e9 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +178,17 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e6f00/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e6f00.dir/build.make CMakeFiles/cmTC_e6f00.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e6f00.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e6f00.dir/feature_tests.c.o   -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e6f00
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6f00.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e6f00.dir/feature_tests.c.o  -o cmTC_e6f00 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cfcc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfcc8.dir/build.make CMakeFiles/cmTC_cfcc8.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfcc8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_cfcc8.dir/feature_tests.c.o   -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cfcc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfcc8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cfcc8.dir/feature_tests.c.o  -o cmTC_cfcc8 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,17 +198,17 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1276/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1276.dir/build.make CMakeFiles/cmTC_d1276.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d1276.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d1276.dir/feature_tests.c.o   -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d1276
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1276.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1276.dir/feature_tests.c.o  -o cmTC_d1276 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6728a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6728a.dir/build.make CMakeFiles/cmTC_6728a.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6728a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6728a.dir/feature_tests.c.o   -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6728a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6728a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6728a.dir/feature_tests.c.o  -o cmTC_6728a 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -216,77 +216,77 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acabe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_acabe.dir/build.make CMakeFiles/cmTC_acabe.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_acabe.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_acabe.dir/testCXXCompiler.cxx.o -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_acabe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acabe.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_acabe.dir/testCXXCompiler.cxx.o  -o cmTC_acabe 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f6bcb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6bcb.dir/build.make CMakeFiles/cmTC_f6bcb.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6bcb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f6bcb.dir/testCXXCompiler.cxx.o -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f6bcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6bcb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f6bcb.dir/testCXXCompiler.cxx.o  -o cmTC_f6bcb 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a743e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a743e.dir/build.make CMakeFiles/cmTC_a743e.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a743e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a743e.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a743e 
+Run Build Command:"/usr/bin/make" "cmTC_9ca14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ca14.dir/build.make CMakeFiles/cmTC_9ca14.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_9ca14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca14.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9ca14 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-16ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
+gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a743e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMKIuzJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a743e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a743e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9ca14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctfF6uh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9ca14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9ca14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a743e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a743e.dir/build.make CMakeFiles/cmTC_a743e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a743e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a743e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a743e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9ca14/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9ca14.dir/build.make CMakeFiles/cmTC_9ca14.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_9ca14]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca14.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9ca14 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-16ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a743e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMKIuzJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a743e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9ca14' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctfF6uh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9ca14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMKIuzJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctfF6uh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a743e] ==> ignore
+    arg [cmTC_9ca14] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_a743e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_9ca14.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +344,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e407/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e407.dir/build.make CMakeFiles/cmTC_6e407.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6e407.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_6e407.dir/feature_tests.cxx.o -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6e407
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e407.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6e407.dir/feature_tests.cxx.o  -o cmTC_6e407 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ff735/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff735.dir/build.make CMakeFiles/cmTC_ff735.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff735.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_ff735.dir/feature_tests.cxx.o -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ff735
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff735.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ff735.dir/feature_tests.cxx.o  -o cmTC_ff735 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +417,17 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3fc5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3fc5.dir/build.make CMakeFiles/cmTC_c3fc5.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c3fc5.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c3fc5.dir/feature_tests.cxx.o -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c3fc5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3fc5.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c3fc5.dir/feature_tests.cxx.o  -o cmTC_c3fc5 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cc2ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc2ce.dir/build.make CMakeFiles/cmTC_cc2ce.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc2ce.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_cc2ce.dir/feature_tests.cxx.o -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cc2ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc2ce.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cc2ce.dir/feature_tests.cxx.o  -o cmTC_cc2ce 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +490,17 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ae06/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ae06.dir/build.make CMakeFiles/cmTC_3ae06.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ae06.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_3ae06.dir/feature_tests.cxx.o -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3ae06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae06.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3ae06.dir/feature_tests.cxx.o  -o cmTC_3ae06 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e13ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e13ce.dir/build.make CMakeFiles/cmTC_e13ce.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e13ce.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_e13ce.dir/feature_tests.cxx.o -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e13ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e13ce.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e13ce.dir/feature_tests.cxx.o  -o cmTC_e13ce 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +563,17 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37f33/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37f33.dir/build.make CMakeFiles/cmTC_37f33.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37f33.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_37f33.dir/feature_tests.cxx.o -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_37f33
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f33.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_37f33.dir/feature_tests.cxx.o  -o cmTC_37f33 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_86af3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86af3.dir/build.make CMakeFiles/cmTC_86af3.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86af3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_86af3.dir/feature_tests.cxx.o -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_86af3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86af3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_86af3.dir/feature_tests.cxx.o  -o cmTC_86af3 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,30 +634,30 @@ make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_92cfe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92cfe.dir/build.make CMakeFiles/cmTC_92cfe.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92cfe.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_92cfe.dir/CheckIncludeFile.c.o   -c /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_92cfe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92cfe.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_92cfe.dir/CheckIncludeFile.c.o  -o cmTC_92cfe 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7d111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d111.dir/build.make CMakeFiles/cmTC_7d111.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d111.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d111.dir/CheckIncludeFile.c.o   -c /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d111.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d111.dir/CheckIncludeFile.c.o  -o cmTC_7d111 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
+Change Dir: /home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ee21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5ee21.dir/build.make CMakeFiles/cmTC_5ee21.dir/build
-make[1]: Entering directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5ee21.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5ee21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5ee21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee21.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5ee21.dir/CheckFunctionExists.c.o  -o cmTC_5ee21 -lpthread 
-make[1]: Leaving directory '/home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_af2c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af2c4.dir/build.make CMakeFiles/cmTC_af2c4.dir/build
+make[1]: Entering directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af2c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_af2c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af2c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af2c4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_af2c4.dir/CheckFunctionExists.c.o  -o cmTC_af2c4 -lpthread 
+make[1]: Leaving directory '/home/hdcl-ros/ballbotRepo/build/vrep_plugin_skeleton/CMakeFiles/CMakeTmp'
 
 

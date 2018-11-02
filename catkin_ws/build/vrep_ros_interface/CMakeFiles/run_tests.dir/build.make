@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/v_repExtRosInterface
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/vrep_ros_interface
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/vrep_ros_interface
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_ros_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/v_repExtRosInterface /home/yinan/ballbotRepo/catkin_ws/src/v_repExtRosInterface /home/yinan/ballbotRepo/catkin_ws/build/vrep_ros_interface /home/yinan/ballbotRepo/catkin_ws/build/vrep_ros_interface /home/yinan/ballbotRepo/catkin_ws/build/vrep_ros_interface/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_ros_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface /home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface /home/hdcl-ros/ballbotRepo/build/vrep_ros_interface /home/hdcl-ros/ballbotRepo/build/vrep_ros_interface /home/hdcl-ros/ballbotRepo/build/vrep_ros_interface/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

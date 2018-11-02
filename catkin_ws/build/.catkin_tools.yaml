@@ -1,6 +1,6 @@
-devel_space: /home/yinan/ballbotRepo/catkin_ws/devel
+devel_space: /home/hdcl-ros/ballbotRepo/devel
 install: false
-install_space: /home/yinan/ballbotRepo/catkin_ws/install
+install_space: /home/hdcl-ros/ballbotRepo/install
 profile: default
-source_space: /home/yinan/ballbotRepo/catkin_ws/src
-workspace: /home/yinan/ballbotRepo/catkin_ws
+source_space: /home/hdcl-ros/ballbotRepo/src
+workspace: /home/hdcl-ros/ballbotRepo

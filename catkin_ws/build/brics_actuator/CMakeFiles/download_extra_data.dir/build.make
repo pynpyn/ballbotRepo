@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/brics_actuator
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/brics_actuator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/brics_actuator
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/brics_actuator
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/brics_actuator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/brics_actuator /home/yinan/ballbotRepo/catkin_ws/src/brics_actuator /home/yinan/ballbotRepo/catkin_ws/build/brics_actuator /home/yinan/ballbotRepo/catkin_ws/build/brics_actuator /home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hdcl-ros/ballbotRepo/build/brics_actuator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/src/brics_actuator /home/hdcl-ros/ballbotRepo/src/brics_actuator /home/hdcl-ros/ballbotRepo/build/brics_actuator /home/hdcl-ros/ballbotRepo/build/brics_actuator /home/hdcl-ros/ballbotRepo/build/brics_actuator/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

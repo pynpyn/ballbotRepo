@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -E cmake_progress_start /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv/CMakeFiles /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv/gtest/CMakeFiles/progress.marks
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv/CMakeFiles 0
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -E cmake_progress_start /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv/CMakeFiles /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv/gtest/CMakeFiles/progress.marks
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

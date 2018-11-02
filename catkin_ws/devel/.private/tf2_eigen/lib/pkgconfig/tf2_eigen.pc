@@ -1,8 +1,8 @@
-prefix=/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_eigen
+prefix=/home/hdcl-ros/ballbotRepo/devel/.private/tf2_eigen
 
 Name: tf2_eigen
 Description: Description of tf2_eigen
 Version: 0.6.3
-Cflags: -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
-Libs: -L/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_eigen/lib 
+Cflags: -I/home/hdcl-ros/ballbotRepo/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
+Libs: -L/home/hdcl-ros/ballbotRepo/devel/.private/tf2_eigen/lib 
 Requires: 

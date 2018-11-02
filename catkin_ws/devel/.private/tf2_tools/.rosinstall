@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_tools/setup.sh
+    local-name: /home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools/setup.sh

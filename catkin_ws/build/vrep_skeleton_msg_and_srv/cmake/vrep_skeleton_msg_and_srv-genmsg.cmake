@@ -17,9 +17,9 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_custom_target(_vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_skeleton_msg_and_srv" "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_skeleton_msg_and_srv" "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_fil
 
 ### Generating Services
 _generate_srv_cpp(vrep_skeleton_msg_and_srv
-  "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+  "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_skeleton_msg_and_srv
@@ -49,7 +49,7 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages_cpp
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages vrep_skeleton_msg_and_srv_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages_cpp _vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_skeleton_msg_and_srv_generate_
 
 ### Generating Services
 _generate_srv_eus(vrep_skeleton_msg_and_srv
-  "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+  "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/vrep_skeleton_msg_and_srv
@@ -82,7 +82,7 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages_eus
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages vrep_skeleton_msg_and_srv_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages_eus _vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_skeleton_msg_and_srv_generate_
 
 ### Generating Services
 _generate_srv_lisp(vrep_skeleton_msg_and_srv
-  "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+  "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_skeleton_msg_and_srv
@@ -115,7 +115,7 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages_lisp
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages vrep_skeleton_msg_and_srv_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages_lisp _vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_skeleton_msg_and_srv_generate_
 
 ### Generating Services
 _generate_srv_nodejs(vrep_skeleton_msg_and_srv
-  "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+  "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/vrep_skeleton_msg_and_srv
@@ -148,7 +148,7 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages_nodejs
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages vrep_skeleton_msg_and_srv_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages_nodejs _vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_skeleton_msg_and_srv_generate_
 
 ### Generating Services
 _generate_srv_py(vrep_skeleton_msg_and_srv
-  "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
+  "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_skeleton_msg_and_srv
@@ -181,7 +181,7 @@ add_custom_target(vrep_skeleton_msg_and_srv_generate_messages_py
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages vrep_skeleton_msg_and_srv_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/yinan/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
+get_filename_component(_filename "/home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv/srv/displayText.srv" NAME_WE)
 add_dependencies(vrep_skeleton_msg_and_srv_generate_messages_py _vrep_skeleton_msg_and_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_ros/lib;/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2/lib;/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_ros/lib;/home/hdcl-ros/ballbotRepo/devel/.private/tf2/lib;/opt/ros/melodic/lib")

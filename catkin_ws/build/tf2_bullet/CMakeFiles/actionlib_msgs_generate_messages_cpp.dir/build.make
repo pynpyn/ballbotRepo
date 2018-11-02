@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/geometry2/tf2_bullet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/tf2_bullet
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/tf2_bullet
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/yinan/ballbotRepo/catkin_ws/build/tf2_bullet && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet /home/yinan/ballbotRepo/catkin_ws/build/tf2_bullet /home/yinan/ballbotRepo/catkin_ws/build/tf2_bullet /home/yinan/ballbotRepo/catkin_ws/build/tf2_bullet/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hdcl-ros/ballbotRepo/build/tf2_bullet && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/src/geometry2/tf2_bullet /home/hdcl-ros/ballbotRepo/src/geometry2/tf2_bullet /home/hdcl-ros/ballbotRepo/build/tf2_bullet /home/hdcl-ros/ballbotRepo/build/tf2_bullet /home/hdcl-ros/ballbotRepo/build/tf2_bullet/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 
