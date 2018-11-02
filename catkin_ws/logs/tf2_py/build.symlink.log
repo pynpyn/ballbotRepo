@@ -1,5 +1,5 @@
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/lib/pkgconfig/tf2_py.pc, /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2_py.pc)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/lib/python2.7/dist-packages/tf2_py/__init__.py, /home/hdcl-ros/ballbotRepo/devel/lib/python2.7/dist-packages/tf2_py/__init__.py)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/lib/python2.7/dist-packages/tf2_py/_tf2.so, /home/hdcl-ros/ballbotRepo/devel/lib/python2.7/dist-packages/tf2_py/_tf2.so)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/share/tf2_py/cmake/tf2_pyConfig-version.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_py/cmake/tf2_pyConfig-version.cmake)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/share/tf2_py/cmake/tf2_pyConfig.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_py/cmake/tf2_pyConfig.cmake)
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_py.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/python2.7/dist-packages/tf2_py/__init__.py
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/python2.7/dist-packages/tf2_py/_tf2.so
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_py/cmake/tf2_pyConfig.cmake

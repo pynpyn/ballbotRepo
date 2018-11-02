@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_tomsg_frommsg.dir/test/test_tomsg_frommsg.cpp.o"
-  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_geometry_msgs/lib/tf2_geometry_msgs/test_tomsg_frommsg.pdb"
-  "/home/hdcl-ros/ballbotRepo/devel/.private/tf2_geometry_msgs/lib/tf2_geometry_msgs/test_tomsg_frommsg"
+  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_geometry_msgs/lib/tf2_geometry_msgs/test_tomsg_frommsg.pdb"
+  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_geometry_msgs/lib/tf2_geometry_msgs/test_tomsg_frommsg"
 )
 
 # Per-language clean rules from dependency scanning.

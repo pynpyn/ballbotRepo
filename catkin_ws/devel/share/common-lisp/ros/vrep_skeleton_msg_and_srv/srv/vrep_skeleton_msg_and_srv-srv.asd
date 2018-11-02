@@ -1,1 +1,1 @@
-/home/hdcl-ros/ballbotRepo/devel/.private/vrep_skeleton_msg_and_srv/share/common-lisp/ros/vrep_skeleton_msg_and_srv/srv/vrep_skeleton_msg_and_srv-srv.asd
+/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/share/common-lisp/ros/vrep_skeleton_msg_and_srv/srv/vrep_skeleton_msg_and_srv-srv.asd

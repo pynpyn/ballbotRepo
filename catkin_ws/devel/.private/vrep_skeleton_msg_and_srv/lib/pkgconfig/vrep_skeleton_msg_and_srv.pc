@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/devel/.private/vrep_skeleton_msg_and_srv
+prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv
 
 Name: vrep_skeleton_msg_and_srv
 Description: Description of vrep_skeleton_msg_and_srv
 Version: 3.4.0
-Cflags: -I/home/hdcl-ros/ballbotRepo/devel/.private/vrep_skeleton_msg_and_srv/include
-Libs: -L/home/hdcl-ros/ballbotRepo/devel/.private/vrep_skeleton_msg_and_srv/lib 
+Cflags: -I/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/include
+Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/lib 
 Requires: message_runtime

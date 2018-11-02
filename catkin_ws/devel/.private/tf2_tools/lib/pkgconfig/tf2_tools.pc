@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools
+prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_tools
 
 Name: tf2_tools
 Description: Description of tf2_tools
 Version: 0.6.3
 Cflags: 
-Libs: -L/home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools/lib 
+Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_tools/lib 
 Requires: tf2 tf2_msgs tf2_ros

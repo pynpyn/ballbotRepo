@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv
+CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv
+CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/src/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/build/vrep_skeleton_msg_and_srv/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/catkin_ws/src/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_skeleton_msg_and_srv/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

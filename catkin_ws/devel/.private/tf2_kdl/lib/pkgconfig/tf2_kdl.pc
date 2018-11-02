@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl
+prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_kdl
 
 Name: tf2_kdl
 Description: Description of tf2_kdl
 Version: 0.6.3
-Cflags: -I/home/hdcl-ros/ballbotRepo/src/geometry2/tf2_kdl/include -I/usr/include/eigen3 -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include
-Libs: -L/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl/lib /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+Cflags: -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_kdl/include -I/usr/include/eigen3 -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include
+Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_kdl/lib /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 Requires: 

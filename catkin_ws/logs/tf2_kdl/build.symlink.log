@@ -1,4 +1,4 @@
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl/lib/pkgconfig/tf2_kdl.pc, /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2_kdl.pc)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl/lib/python2.7/dist-packages/tf2_kdl/__init__.py, /home/hdcl-ros/ballbotRepo/devel/lib/python2.7/dist-packages/tf2_kdl/__init__.py)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_kdl/cmake/tf2_kdlConfig.cmake)
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_kdl.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/python2.7/dist-packages/tf2_kdl/__init__.py
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_kdl/cmake/tf2_kdlConfig.cmake

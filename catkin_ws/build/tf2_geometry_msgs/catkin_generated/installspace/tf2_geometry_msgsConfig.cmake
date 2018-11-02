@@ -67,14 +67,14 @@ set(tf2_geometry_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_geometry_msgs_SOURCE_PREFIX /home/hdcl-ros/ballbotRepo/src/geometry2/tf2_geometry_msgs)
-  set(tf2_geometry_msgs_DEVEL_PREFIX /home/hdcl-ros/ballbotRepo/devel/.private/tf2_geometry_msgs)
+  set(tf2_geometry_msgs_SOURCE_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_geometry_msgs)
+  set(tf2_geometry_msgs_DEVEL_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_geometry_msgs)
   set(tf2_geometry_msgs_INSTALL_PREFIX "")
   set(tf2_geometry_msgs_PREFIX ${tf2_geometry_msgs_DEVEL_PREFIX})
 else()
   set(tf2_geometry_msgs_SOURCE_PREFIX "")
   set(tf2_geometry_msgs_DEVEL_PREFIX "")
-  set(tf2_geometry_msgs_INSTALL_PREFIX /home/hdcl-ros/ballbotRepo/install)
+  set(tf2_geometry_msgs_INSTALL_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/install)
   set(tf2_geometry_msgs_PREFIX ${tf2_geometry_msgs_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +110,7 @@ if(NOT "include;/opt/ros/melodic/share/orocos_kdl/cmake/../../../include;/usr/in
         message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hdcl-ros/ballbotRepo/install/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hdcl-ros/ballbotRepo/catkin_ws/install/${idir}'.  ${_report}")
     endif()
     _list_append_unique(tf2_geometry_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hdcl-ros/ballbotRepo/install/lib;/home/hdcl-ros/ballbotRepo/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/hdcl-ros/ballbotRepo/catkin_ws/install/lib;/home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

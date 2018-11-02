@@ -1,4 +1,4 @@
-Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2_sensor_msgs.pc
-Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/python2.7/dist-packages/tf2_sensor_msgs/__init__.py
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_sensor_msgs.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/python2.7/dist-packages/tf2_sensor_msgs/__init__.py
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake

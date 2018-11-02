@@ -15,4 +15,4 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compile features - done
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/hdcl-ros/ballbotRepo/build/test_tf2
+[36m--[0m Build files have been written to: /home/hdcl-ros/ballbotRepo/catkin_ws/build/test_tf2

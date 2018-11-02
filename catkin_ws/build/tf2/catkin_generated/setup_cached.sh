@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hdcl-ros/ballbotRepo/devel/.private/tf2:$CMAKE_PREFIX_PATH"
-export PWD="/home/hdcl-ros/ballbotRepo/build/tf2"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hdcl-ros/ballbotRepo/devel/.private/tf2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hdcl-ros/ballbotRepo/src/geometry2/tf2:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2:$CMAKE_PREFIX_PATH"
+export PWD="/home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2:$ROS_PACKAGE_PATH"

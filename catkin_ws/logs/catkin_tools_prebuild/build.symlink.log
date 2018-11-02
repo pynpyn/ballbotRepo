@@ -1,8 +1,8 @@
-Symlinking /home/hdcl-ros/ballbotRepo/devel/./setup.sh
-Symlinking /home/hdcl-ros/ballbotRepo/devel/./setup.zsh
-Symlinking /home/hdcl-ros/ballbotRepo/devel/./setup.bash
-Symlinking /home/hdcl-ros/ballbotRepo/devel/./env.sh
-Symlinking /home/hdcl-ros/ballbotRepo/devel/./_setup_util.py
-Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/./setup.sh
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/./setup.zsh
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/./setup.bash
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/./env.sh
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/./_setup_util.py
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

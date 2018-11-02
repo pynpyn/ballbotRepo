@@ -1,3 +1,3 @@
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools/lib/pkgconfig/tf2_tools.pc, /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2_tools.pc)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_tools/cmake/tf2_toolsConfig.cmake)
-Linked: (/home/hdcl-ros/ballbotRepo/devel/.private/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake, /home/hdcl-ros/ballbotRepo/devel/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake)
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_tools.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_tools/cmake/tf2_toolsConfig.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake

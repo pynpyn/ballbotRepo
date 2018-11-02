@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vrep_skeleton_msg_and_srv_generate_messages_cpp"
-  "/home/hdcl-ros/ballbotRepo/devel/.private/vrep_skeleton_msg_and_srv/include/vrep_skeleton_msg_and_srv/displayText.h"
+  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/include/vrep_skeleton_msg_and_srv/displayText.h"
 )
 
 # Per-language clean rules from dependency scanning.

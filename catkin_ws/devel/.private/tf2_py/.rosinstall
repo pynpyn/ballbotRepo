@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/hdcl-ros/ballbotRepo/devel/.private/tf2_py/setup.sh
+    local-name: /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_py/setup.sh

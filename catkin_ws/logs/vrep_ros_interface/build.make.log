@@ -1,17 +1,53 @@
+[35m[1mScanning dependencies of target generate_ros_code[0m
+[  9%] [34m[1mGenerating generated/pub.cpp[0m
+[ 23%] [34m[1mGenerating generated/ros_msg_io.cpp[0m
+[  9%] [34m[1mGenerating generated/adv.cpp[0m
+[ 19%] [34m[1mGenerating generated/ros_srv_io.cpp[0m
+[ 19%] [34m[1mGenerating generated/ros_msg_io.h[0m
+[ 28%] [34m[1mGenerating generated/ros_srv_io.h[0m
+[ 33%] [34m[1mGenerating generated/srvcall.cpp[0m
+[ 38%] [34m[1mGenerating generated/srvcli.cpp[0m
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/SensorLevels
+WARNING: bad msg: driver_base/SensorLevels
+WARNING: bad msg: driver_base/SensorLevels
+[ 42%] [34m[1mGenerating generated/srvsrv.cpp[0m
+[ 47%] [34m[1mGenerating generated/sub.cpp[0m
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/SensorLevels
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/SensorLevels
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/SensorLevels
+WARNING: bad msg: driver_base/ConfigString
+WARNING: bad msg: driver_base/ConfigValue
+WARNING: bad msg: driver_base/SensorLevels
 [ 47%] Built target generate_ros_code
-[ 52%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/src/vrep_ros_interface.cpp.o[0m
-In file included from [01m[K/home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface/include/vrep_ros_interface.h:15:0[m[K,
-                 from [01m[K/home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface/src/vrep_ros_interface.cpp:1[m[K:
-[01m[K/home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface/src/vrep_ros_interface.cpp:[m[K In member function ‘[01m[Kvirtual void Plugin::onStart()[m[K’:
-[01m[K/home/hdcl-ros/ballbotRepo/build/vrep_ros_interface/include/config.h:5:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KBUILD_GIT_VERSION[m[K’
- #define BUILD_DATE __DATE__ " (git " [01;31m[KB[m[KUILD_GIT_VERSION ")"
-                                      [01;31m[K^[m[K
-[01m[K/home/hdcl-ros/ballbotRepo/build/vrep_ros_interface/include/config.h:5:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KBUILD_DATE[m[K’
- #define BUILD_DATE __DATE__ " (git " [01;36m[KBUILD_GIT_VERSION[m[K ")"
-                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
-CMakeFiles/v_repExtRosInterface.dir/build.make:84: recipe for target 'CMakeFiles/v_repExtRosInterface.dir/src/vrep_ros_interface.cpp.o' failed
-make[2]: *** [CMakeFiles/v_repExtRosInterface.dir/src/vrep_ros_interface.cpp.o] Error 1
-CMakeFiles/Makefile2:771: recipe for target 'CMakeFiles/v_repExtRosInterface.dir/all' failed
-make[1]: *** [CMakeFiles/v_repExtRosInterface.dir/all] Error 2
-Makefile:140: recipe for target 'all' failed
-make: *** [all] Error 2
+[ 52%] [34m[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/lua_calltips.cpp[0m
+running external/pycpp/pycpp
+running external/pycpp/pycpp
+running lua_to_xml
+running merge_xml
+running xsltproc
+running generate_lua_calltips
+running generate_notepadplusplus_xml
+running generate_notepadplusplus_txt
+running generate_deprecated_txt
+[35m[1mScanning dependencies of target v_repExtRosInterface[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/external/v_repPlusPlus/Plugin.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/src/vrep_ros_interface.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/generated/stubs.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/src/ros_msg_builtin_io.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/home/hdcl-ros/Downloads/V-REP_PRO_EDU_V3_5_0_Linux/programming/common/v_repLib.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/generated/ros_msg_io.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/v_repExtRosInterface.dir/generated/ros_srv_io.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_ros_interface/lib/libv_repExtRosInterface.so[0m
+[100%] Built target v_repExtRosInterface

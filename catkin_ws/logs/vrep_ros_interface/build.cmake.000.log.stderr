@@ -1,7 +1,0 @@
-[31m[1mCMake Error[0m at /home/hdcl-ros/ballbotRepo/src/v_repExtRosInterface/cmake/CoppeliaRobotics-modules/FindVREP.cmake:10 (message):
-  Cannot find V-REP installation.  Please set the VREP_ROOT environment
-  variable to point to the root of your V-REP installation.
-[36mCall Stack (most recent call first):[0m
-  CMakeLists.txt:38 (find_package)
-
-

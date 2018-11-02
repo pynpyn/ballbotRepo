@@ -1,3 +1,3 @@
-Symlinking /home/hdcl-ros/ballbotRepo/devel/lib/pkgconfig/tf2_eigen.pc
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
-Symlinking /home/hdcl-ros/ballbotRepo/devel/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib/pkgconfig/tf2_eigen.pc
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
+Symlinking /home/hdcl-ros/ballbotRepo/catkin_ws/devel/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
