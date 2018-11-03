@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_simple.dir/test/simple_tf2_core.cpp.o"
-  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2/lib/tf2/test_simple.pdb"
-  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2/lib/tf2/test_simple"
+  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2/lib/tf2/test_simple.pdb"
+  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2/lib/tf2/test_simple"
 )
 
 # Per-language clean rules from dependency scanning.

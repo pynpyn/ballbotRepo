@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/install
+prefix=/home/yinan/ballbotRepo/catkin_ws/install
 
 Name: tf2_py
 Description: Description of tf2_py
 Version: 0.6.3
 Cflags: 
-Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/install/lib 
+Libs: -L/home/yinan/ballbotRepo/catkin_ws/install/lib 
 Requires: rospy tf2

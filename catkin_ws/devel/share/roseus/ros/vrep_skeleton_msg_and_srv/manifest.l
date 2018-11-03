@@ -1,1 +1,1 @@
-/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/share/roseus/ros/vrep_skeleton_msg_and_srv/manifest.l
+/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_skeleton_msg_and_srv/share/roseus/ros/vrep_skeleton_msg_and_srv/manifest.l

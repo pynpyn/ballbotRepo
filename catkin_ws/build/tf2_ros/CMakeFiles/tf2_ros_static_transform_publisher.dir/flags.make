@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"tf2_ros\"
 
-CXX_INCLUDES = -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_ros/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_ros/include -I/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

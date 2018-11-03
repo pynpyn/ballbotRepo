@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/src/ros_bubble_rob2
+CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/build/ros_bubble_rob2
+CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/ros_bubble_rob2
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/hdcl-ros/ballbotRepo/catkin_ws/build/ros_bubble_rob2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/catkin_ws/src/ros_bubble_rob2 /home/hdcl-ros/ballbotRepo/catkin_ws/src/ros_bubble_rob2 /home/hdcl-ros/ballbotRepo/catkin_ws/build/ros_bubble_rob2 /home/hdcl-ros/ballbotRepo/catkin_ws/build/ros_bubble_rob2 /home/hdcl-ros/ballbotRepo/catkin_ws/build/ros_bubble_rob2/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yinan/ballbotRepo/catkin_ws/build/ros_bubble_rob2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2 /home/yinan/ballbotRepo/catkin_ws/src/ros_bubble_rob2 /home/yinan/ballbotRepo/catkin_ws/build/ros_bubble_rob2 /home/yinan/ballbotRepo/catkin_ws/build/ros_bubble_rob2 /home/yinan/ballbotRepo/catkin_ws/build/ros_bubble_rob2/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

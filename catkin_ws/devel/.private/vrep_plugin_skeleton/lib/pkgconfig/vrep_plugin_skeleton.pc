@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton
+prefix=/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton
 
 Name: vrep_plugin_skeleton
 Description: Description of vrep_plugin_skeleton
 Version: 3.4.0
 Cflags: 
-Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/lib 
+Libs: -L/home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_plugin_skeleton/lib 
 Requires: roscpp rosconsole std_msgs roslib roscpp rosconsole std_msgs

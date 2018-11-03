@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/src/vrep_plugin_skeleton
+CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/vrep_plugin_skeleton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton
+CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hdcl-ros/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yinan/ballbotRepo/catkin_ws/build/vrep_plugin_skeleton/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

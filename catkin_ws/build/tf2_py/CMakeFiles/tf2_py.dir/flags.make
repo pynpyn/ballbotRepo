@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -g -Wno-missing-field-initializers
 
 CXX_DEFINES = -Dtf2_py_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/python2.7 -I/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/opt/ros/melodic/include 
+CXX_INCLUDES = -I/usr/include/python2.7 -I/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/opt/ros/melodic/include 
 

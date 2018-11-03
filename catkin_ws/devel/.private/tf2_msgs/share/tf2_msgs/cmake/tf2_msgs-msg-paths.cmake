@@ -1,4 +1,4 @@
 # generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
 
-set(tf2_msgs_MSG_INCLUDE_DIRS "/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/msg;/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/tf2_msgs/msg")
+set(tf2_msgs_MSG_INCLUDE_DIRS "/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/msg;/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/share/tf2_msgs/msg")
 set(tf2_msgs_MSG_DEPENDENCIES actionlib_msgs;std_msgs;geometry_msgs)

@@ -67,14 +67,14 @@ set(tf2_bullet_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(tf2_bullet_SOURCE_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet)
-  set(tf2_bullet_DEVEL_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_bullet)
+  set(tf2_bullet_SOURCE_PREFIX /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet)
+  set(tf2_bullet_DEVEL_PREFIX /home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_bullet)
   set(tf2_bullet_INSTALL_PREFIX "")
   set(tf2_bullet_PREFIX ${tf2_bullet_DEVEL_PREFIX})
 else()
   set(tf2_bullet_SOURCE_PREFIX "")
   set(tf2_bullet_DEVEL_PREFIX "")
-  set(tf2_bullet_INSTALL_PREFIX /home/hdcl-ros/ballbotRepo/catkin_ws/install)
+  set(tf2_bullet_INSTALL_PREFIX /home/yinan/ballbotRepo/catkin_ws/install)
   set(tf2_bullet_PREFIX ${tf2_bullet_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(tf2_bullet_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include;/usr/include/bullet " STREQUAL " ")
+if(NOT "/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include;/usr/include/bullet " STREQUAL " ")
   set(tf2_bullet_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include;/usr/include/bullet")
+  set(_include_dirs "/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include;/usr/include/bullet")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/tf2_bullet " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include;/u
         message(FATAL_ERROR "Project 'tf2_bullet' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'tf2_bullet' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'tf2_bullet' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/${idir}'.  ${_report}")
     endif()
     _list_append_unique(tf2_bullet_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_bullet/lib;/home/hdcl-ros/ballbotRepo/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_bullet/lib;/home/yinan/ballbotRepo/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

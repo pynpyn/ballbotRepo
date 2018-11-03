@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs
+CMAKE_SOURCE_DIR = /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2_msgs
+CMAKE_BINARY_DIR = /home/yinan/ballbotRepo/catkin_ws/build/tf2_msgs
 
 # Utility rule file for tf2_msgs_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_gennodejs.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_gennodejs.dir/clean
 
 CMakeFiles/tf2_msgs_gennodejs.dir/depend:
-	cd /home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs /home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs /home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2_msgs /home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2_msgs /home/hdcl-ros/ballbotRepo/catkin_ws/build/tf2_msgs/CMakeFiles/tf2_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yinan/ballbotRepo/catkin_ws/build/tf2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs /home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs /home/yinan/ballbotRepo/catkin_ws/build/tf2_msgs /home/yinan/ballbotRepo/catkin_ws/build/tf2_msgs /home/yinan/ballbotRepo/catkin_ws/build/tf2_msgs/CMakeFiles/tf2_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_gennodejs.dir/depend
 

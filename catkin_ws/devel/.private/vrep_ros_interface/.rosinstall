@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/vrep_ros_interface/setup.sh
+    local-name: /home/yinan/ballbotRepo/catkin_ws/devel/.private/vrep_ros_interface/setup.sh

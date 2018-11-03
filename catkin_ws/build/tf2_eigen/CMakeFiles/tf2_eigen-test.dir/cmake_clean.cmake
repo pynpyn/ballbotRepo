@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf2_eigen-test.dir/test/tf2_eigen-test.cpp.o"
-  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_eigen/lib/tf2_eigen/tf2_eigen-test.pdb"
-  "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_eigen/lib/tf2_eigen/tf2_eigen-test"
+  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_eigen/lib/tf2_eigen/tf2_eigen-test.pdb"
+  "/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_eigen/lib/tf2_eigen/tf2_eigen-test"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_bullet
+prefix=/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_bullet
 
 Name: tf2_bullet
 Description: Description of tf2_bullet
 Version: 0.6.3
-Cflags: -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include -I/usr/include/bullet
-Libs: -L/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_bullet/lib 
+Cflags: -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_bullet/include -I/usr/include/bullet
+Libs: -L/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_bullet/lib 
 Requires: 

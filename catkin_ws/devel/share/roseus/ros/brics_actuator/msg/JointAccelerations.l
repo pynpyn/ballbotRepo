@@ -1,1 +1,1 @@
-/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/roseus/ros/brics_actuator/msg/JointAccelerations.l
+/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/roseus/ros/brics_actuator/msg/JointAccelerations.l

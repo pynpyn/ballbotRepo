@@ -1,8 +1,8 @@
-# Install script for directory: /home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator
+# Install script for directory: /home/yinan/ballbotRepo/catkin_ws/src/brics_actuator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hdcl-ros/ballbotRepo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yinan/ballbotRepo/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,143 +49,143 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/_setup_util.py")
+   "/home/yinan/ballbotRepo/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE PROGRAM FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE PROGRAM FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/env.sh")
+   "/home/yinan/ballbotRepo/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE PROGRAM FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE PROGRAM FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/setup.bash")
+   "/home/yinan/ballbotRepo/catkin_ws/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/setup.sh")
+   "/home/yinan/ballbotRepo/catkin_ws/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/setup.zsh")
+   "/home/yinan/ballbotRepo/catkin_ws/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hdcl-ros/ballbotRepo/catkin_ws/install/.rosinstall")
+   "/home/yinan/ballbotRepo/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hdcl-ros/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/yinan/ballbotRepo/catkin_ws/install" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/msg" TYPE FILE FILES
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianPose.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianTwist.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianVector.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianWrench.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointAccelerations.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointConstraint.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointImpedances.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointPositions.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointTorques.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointValue.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointVelocities.msg"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/msg/Poison.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianPose.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianTwist.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianVector.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/CartesianWrench.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointAccelerations.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointConstraint.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointImpedances.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointPositions.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointTorques.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointValue.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/JointVelocities.msg"
+    "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/msg/Poison.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/cmake" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/cmake" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/include/brics_actuator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/include/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/roseus/ros/brics_actuator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/roseus/ros/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/common-lisp/ros/brics_actuator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/common-lisp/ros/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/gennodejs/ros/brics_actuator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/share/gennodejs/ros/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/lib/python2.7/dist-packages/brics_actuator")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/lib/python2.7/dist-packages/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/brics_actuator/lib/python2.7/dist-packages/brics_actuator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/yinan/ballbotRepo/catkin_ws/devel/.private/brics_actuator/lib/python2.7/dist-packages/brics_actuator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/cmake" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/cmake" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuator-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator/cmake" TYPE FILE FILES
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuatorConfig.cmake"
-    "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuatorConfig-version.cmake"
+    "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuatorConfig.cmake"
+    "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/catkin_generated/installspace/brics_actuatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator" TYPE FILE FILES "/home/hdcl-ros/ballbotRepo/catkin_ws/src/brics_actuator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/brics_actuator" TYPE FILE FILES "/home/yinan/ballbotRepo/catkin_ws/src/brics_actuator/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/gtest/cmake_install.cmake")
+  include("/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/gtest/cmake_install.cmake")
 
 endif()
 
@@ -197,5 +197,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hdcl-ros/ballbotRepo/catkin_ws/build/brics_actuator/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yinan/ballbotRepo/catkin_ws/build/brics_actuator/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

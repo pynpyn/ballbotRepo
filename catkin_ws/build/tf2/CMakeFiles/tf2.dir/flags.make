@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -Dtf2_EXPORTS
 
-CXX_INCLUDES = -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2/src/bt -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/hdcl-ros/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
+CXX_INCLUDES = -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2/src/bt -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2/include -I/home/yinan/ballbotRepo/catkin_ws/devel/.private/tf2_msgs/include -I/home/yinan/ballbotRepo/catkin_ws/src/geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
 
