@@ -1,6 +1,6 @@
-# This is a shared repository for ballbot development.
+## This is a shared repository for ballbot development.
 
-# Way to sync this repository
+## Way to sync this repository
 1. Initialize a local git folder
 ```
 cd local_git_folder
