@@ -13,6 +13,8 @@ catkin clean
 5. State estimation seemed to work, but more testing will be needed
 5. Created state subscriber in Vrep to receive output of the robot localization package
 
-```
-Give examples
-```
+{% highlight c++ %}
+
+some code here
+
+{% endhighlight %}
