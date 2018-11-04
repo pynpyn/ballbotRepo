@@ -1,6 +1,6 @@
 This is a shared repository for ballbot development.
 
-After pulling, remember to 
+After `pulling`, remember to 
 ```
 catkin clean
 ```
