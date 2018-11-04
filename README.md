@@ -25,10 +25,10 @@ catkin clean
 catkin build
 ```
 5. Launch ekf node and echo /odometry/filtered to see the sensor fusion output
-open Vrep
-open scene "StateEstimation.ttt"
-Run the simulation in real-time mode (dt=10ms)
-Click threaded rendering (to ensure fast simulation)
+    1. open Vrep
+    2. open scene "StateEstimation.ttt"
+    3. Run the simulation in real-time mode (dt=10ms)
+    4. Click threaded rendering (to ensure fast simulation)
 ```
 cd local_git_folder
 cd catkin_ws/src
