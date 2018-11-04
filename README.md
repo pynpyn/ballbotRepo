@@ -25,6 +25,7 @@ catkin clean
 catkin build
 ```
 
+## Update log:
 11.3.2018
 1. Figured out real-time simulation mode and speed
 2. Corrected sensor update rate (100Hz for IMU, 5Hz for GPS) in Vrep
