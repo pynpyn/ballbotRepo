@@ -29,9 +29,9 @@ catkin build
 ```
 cd local_git_folder
 cd catkin_ws/src
-```
 Open "ekf_ballbot.yaml".
 Change <rosparam command="load" file="/home/yinan/ballbotRepo/catkin_ws/src/ekf_ballbot.yaml" /> to correct local directory.
+```
     
 1. Launch ekf node and echo /odometry/filtered to see the sensor fusion output
     1. open Vrep
