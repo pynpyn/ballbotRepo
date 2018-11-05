@@ -6,29 +6,38 @@
 cd local_git_folder
 git init
 ```
-2. Add this repository
+1. Add this repository
 ```
 git remote add origin https://github.com/pynpyn/ballbotRepo.git
 ```
-3. Pull the files
+1. Pull the files
 ```
 git pull origin master
 ```
 ```
 git submodule update --init --recursive
 ```
-4. Clean and build the workspace
+1. Clean and build the workspace
 ```
 cd local_git_folder
 cd catkin_ws
 catkin clean
 catkin build
 ```
-5. Launch ekf node and echo /odometry/filtered to see the sensor fusion output
+
+1. Change the ROS node launch file to correct local directory
+```
+cd local_git_folder
+cd catkin_ws/src
+```
+    1. Open "ekf_ballbot.yaml"
+    1. Change <rosparam command="load" file="/home/yinan/ballbotRepo/catkin_ws/src/ekf_ballbot.yaml" /> to correct local directory
+    
+1. Launch ekf node and echo /odometry/filtered to see the sensor fusion output
     1. open Vrep
-    2. open scene "StateEstimation.ttt"
-    3. Run the simulation in real-time mode (dt=10ms)
-    4. Click threaded rendering (to ensure fast simulation)
+    1. open scene "StateEstimation.ttt"
+    1. Run the simulation in real-time mode (dt=10ms)
+    1. Click threaded rendering (to ensure fast simulation)
 ```
 cd local_git_folder
 cd catkin_ws/src
