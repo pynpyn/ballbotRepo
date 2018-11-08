@@ -21,7 +21,7 @@ git submodule update --init --recursive
 ```
 cd local_git_folder
 cd catkin_ws
-catkin clean
+catkin clean -b
 catkin build
 ```
 
