@@ -57,3 +57,12 @@ rostopic hz /odometry/filter
 4. Changed sensor frame ID
 5. State estimation seemed to work, but more testing will be needed
 5. Created state subscriber in Vrep to receive output of the robot localization package
+
+11.11.2018
+1. Modified the frame system.
+        a. GPS is in odom frame, the starting frame.
+        b. IMU is in base_link frame, the frame rigidly attached to the moving robot.
+        c. World frame is odom frame.
+        d. There is no map frame.
+2. Realized that only supplying acceleration and angular rate to EKF node is not sufficient to estimate orientation. 
+3. Some orientation information have to be published from Vrep, either through complementary filter or Kalman filter that fusing raw acceleratio and angular rate.
