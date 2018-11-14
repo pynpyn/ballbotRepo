@@ -57,6 +57,7 @@ rostopic hz /odometry/filter
 4. Changed sensor frame ID
 5. State estimation seemed to work, but more testing will be needed
 5. Created state subscriber in Vrep to receive output of the robot localization package
+6. Vrep file: StateEstimation.ttt
 
 11.11.2018
 1. Modified the frame system.
@@ -66,3 +67,4 @@ rostopic hz /odometry/filter
         4. There is no map frame.
 2. Realized that only supplying acceleration and angular rate to EKF node is not sufficient to estimate orientation. 
 3. Some orientation information have to be published from Vrep. But no magnetometer is available in Vrep, so the true orientation of the robot is published (god's view perfect orientation). Real IMUs will provide estimated orientations based on accelerometer, gyroscope, and magnetometer readings.
+4. Vrep file: StateEstimation_PublishOrientation.ttt
