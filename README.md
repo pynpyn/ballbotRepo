@@ -61,8 +61,8 @@ rostopic hz /odometry/filter
 11.11.2018
 1. Modified the frame system.
         1. GPS is in odom frame, the starting frame.
-        1. IMU is in base_link frame, the frame rigidly attached to the moving robot.
-        1. World frame is odom frame.
-        1. There is no map frame.
+        2. IMU is in base_link frame, the frame rigidly attached to the moving robot.
+        3. World frame is odom frame.
+        4. There is no map frame.
 2. Realized that only supplying acceleration and angular rate to EKF node is not sufficient to estimate orientation. 
 3. Some orientation information have to be published from Vrep, either through complementary filter or Kalman filter that fusing raw acceleratio and angular rate.
