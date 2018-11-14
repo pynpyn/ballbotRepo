@@ -65,4 +65,4 @@ rostopic hz /odometry/filter
         3. World frame is odom frame.
         4. There is no map frame.
 2. Realized that only supplying acceleration and angular rate to EKF node is not sufficient to estimate orientation. 
-3. Some orientation information have to be published from Vrep, either through complementary filter or Kalman filter that fusing raw acceleration and angular rate. Real IMUs will provide estimated orientations based on accelerometer, gyroscope, and magnetometer readings.
+3. Some orientation information have to be published from Vrep. But no magnetometer is available in Vrep, so the true orientation of the robot is published (god's view perfect orientation). Real IMUs will provide estimated orientations based on accelerometer, gyroscope, and magnetometer readings.
